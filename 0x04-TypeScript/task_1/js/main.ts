@@ -57,9 +57,10 @@ function printTeacher(firstName: string, lastName: string): string {
 }
 
 //class that implements the interface of the class
-class StudentClass implements StudentClassInterface {
-  private firstName : string ;
-  private lastName : string ;
+class StudentClass {
+  // properties
+  firstName: string;
+  lastName: string;
 
 // constructor
   constructor (firstName : string , lastName : string)
