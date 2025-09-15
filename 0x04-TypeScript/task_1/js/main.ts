@@ -69,7 +69,7 @@ class StudentClass implements StudentClassInterface {
   }
 // class methode 1
   workOnHomework(): string {
-    return 'currently working';
+    return 'Currently working';
   }
 
   //class methode2
