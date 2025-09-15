@@ -12,4 +12,4 @@ declare function insertRow(row: RowElement): number;
 //export function insertRow(row: RowElement): RowID;
 //export function deleteRow(row : RowID): void;
 declare function deleteRow(rowId: RowID): void
-declare function updatedRow: RowElement ;
+export function updateRow(RowElement,RowID): RowID;
