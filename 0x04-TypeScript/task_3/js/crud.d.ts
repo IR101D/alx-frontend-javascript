@@ -13,4 +13,3 @@ declare function insertRow(row: RowElement): number;
 //export function deleteRow(row : RowID): void;
 declare function deleteRow(rowId: RowID): void
 declare function updatedRow: RowElement ;
-CRUD.updateRow(newRowID, updatedRow);
