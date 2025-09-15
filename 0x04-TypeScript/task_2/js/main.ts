@@ -36,7 +36,7 @@ class Teacher implements TeacherInterface {
 
 function createEmployee (Salary : number | string ) : Director | Teacher 
 {
-  if(typeof Salary == 'number' && Salary < 500)
+  if(Salary < 500)
   {
     return new Teacher();
   }
