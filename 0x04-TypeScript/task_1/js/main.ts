@@ -20,7 +20,7 @@ console.log(teacher1);
 
 // Directors interface extends Teacher
 
-interface Directors extends Teacher {
+interface Director extends Teacher {
   numberOfReports: number;
 }
 
