@@ -18,12 +18,14 @@ const teacher1 : Teacher = {
 
 console.log(teacher1);
 
-// Interface directors that inherits from teacher
+// Directors interface extends Teacher
+
 interface Directors extends Teacher {
-    numberOfReports : number ;
+  numberOfReports: number;
 }
+
 //example
-const director1: Directors = {
+const director1: Director = {
   firstName: 'John',
   lastName: 'Doe',
   location: 'London',
@@ -38,11 +40,9 @@ interface printTeacherFunction {
 }
 
 //function printTeacher that displays first letter of firstname and full lastname
-const printTeacher : printTeacherFunction = (FirstName : string , lastName : string) : string =>
- {
-  const firstInitial = FirstName.charAt(0).toUpperCase() ;
-  return '$firstInitial, $lastName';
- };
+function printTeacher(firstName: string, lastName: string): string {
+  return `${firstName.charAt(0)}. ${lastName}`;
+}
 
  //interface for the class
  interface StudentClassInterface {
